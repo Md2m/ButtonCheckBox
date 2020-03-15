@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.md2m.iVira.ButtonCheckBox
+        android:id="@+id/md2m"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        app:checkedColor="#2F36E4"
+        app:uncheckColor="#B63131"
+        app:topLeftRadius="40"
+        app:topRightRadius="40"
+        app:bottomLeftRadius="40"
+        app:bottomRightRadius="40"
+        app:uncheckTextColor="#fff"
+        app:checkedTextColor="#000"
+        app:checkedText="disable"
+        app:uncheckText="enable"/>
+
+</RelativeLayout>

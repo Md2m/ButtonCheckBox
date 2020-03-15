@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/logoSection"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#C73A3A">
+
+
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/registerInfoSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/logoSection"
+        android:layout_marginTop="50dp">
+
+
+        <EditText
+            android:id="@+id/phoneNumberRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:drawableEnd="@drawable/ic_smartphone_black_24dp"
+            android:drawableRight="@drawable/ic_smartphone_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint=" شماره موبایل"/>
+
+
+
+
+
+
+        <Button
+            android:id="@+id/sendVerificationBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#C73A3A"
+            android:layout_margin="20dp"
+            android:text="ارسال پیامک فعال سازی"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+
+
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="ایجاد حساب کاربری"
+            android:textSize="20sp"
+            android:textColor="#999898"
+            android:background="@drawable/stroke_bg" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ButtonCheckBox">
+
+        <attr name="checkedColor" format="color" />
+        <attr name="uncheckColor" format="color" />
+        <attr name="topLeftRadius" format="float"/>
+        <attr name="topRightRadius" format="float"/>
+        <attr name="bottomLeftRadius" format="float"/>
+        <attr name="bottomRightRadius" format="float"/>
+        <attr name="checkedTextColor" format="color"/>
+        <attr name="uncheckTextColor" format="color"/>
+        <attr name="checkedText" format="string"/>
+        <attr name="uncheckText" format="string"/>
+
+    </declare-styleable>
+
+</resources>

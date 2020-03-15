@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/aboutUsLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <LinearLayout
+        android:layout_below="@id/aboutUsLogo"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:drawableEnd="@drawable/ic_email_white_24dp"
+            android:drawableRight="@drawable/ic_email_white_24dp"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:text="SirjanKonjed@Gmail.com"
+            android:background="@drawable/redius_bg"
+            android:textColor="#fff"/>
+
+
+        <Button
+            android:id="@+id/aboutUsPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"
+            android:drawableEnd="@drawable/ic_phone_black_24dp"
+            android:drawableRight="@drawable/ic_phone_black_24dp"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="تماس با ما"
+            android:gravity="start|center_vertical"
+            android:background="@drawable/redius_bg"
+            android:textColor="#fff"/>
+
+
+        <Button
+            android:id="@+id/supportPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"
+            android:drawableEnd="@drawable/ic_phone_black_24dp"
+            android:drawableRight="@drawable/ic_phone_black_24dp"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="تماس با پشتیبانی"
+            android:gravity="start|center_vertical"
+            android:background="@drawable/redius_bg"
+            android:textColor="#fff"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/ic_location_on_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="چهار راه اداره گاز - مجموعه غذاهای سالم کنجد."
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginStart="70dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="http://konjedsirjan.ir"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

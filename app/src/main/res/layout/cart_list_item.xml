@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/redius_bg_w">
+
+
+    <RelativeLayout
+        android:id="@+id/productSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"/>
+
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/productImage"
+            android:layout_toLeftOf="@id/productImage"
+            android:text="نام محصول"
+            android:textSize="18sp"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:id="@+id/productSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productName"
+            android:layout_toStartOf="@id/productImage"
+            android:layout_toLeftOf="@id/productImage"
+            android:text="سایز"
+            android:textSize="18sp"
+            android:layout_margin="10dp"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

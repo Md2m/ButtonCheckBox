@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/logoSection"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#C73A3A">
+
+
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/verificationInfoSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/logoSection"
+        android:layout_marginTop="50dp">
+
+
+        <EditText
+            android:id="@+id/receivedCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:drawableEnd="@drawable/ic_info_black_24dp"
+            android:drawableRight="@drawable/ic_info_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint=" لطفا کلمه ی عبور پیامک شده را اینجا وارد کنید."/>
+
+
+
+
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#C73A3A"
+            android:layout_margin="20dp"
+            android:text="ایجاد حساب کاربری"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/resendCode"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#E7E6E6"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:id="@+id/counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="ارسال مجدد پیامک"
+                android:textSize="20sp"/>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
