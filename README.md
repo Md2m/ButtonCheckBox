@@ -71,7 +71,7 @@ Feel free to reach out to me at md2m70@gmail.com
 
 ## License:
 ```
-    Copyright 2019 Mohammad Daryanavard
+    Copyright 2020 Mohammad Daryanavard
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
